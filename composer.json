@@ -1,0 +1,17 @@
+{
+  "name": "barnabynorman/google-auth-wrapper",
+  "type": "library",
+  "description": "Wrapper to simplify use of Google PHP Client Library",
+  "keywords": ["auth"],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0",
+    "google/apiclient": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GoogleAuthWrapper\\": "src/GoogleAuthWrapper/"
+    }
+  }
+}
