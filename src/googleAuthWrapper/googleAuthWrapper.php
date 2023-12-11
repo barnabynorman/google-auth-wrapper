@@ -5,7 +5,7 @@ namespace GoogleAuthWrapper;
 /**
  * Wrapper to simplify use of Google Client Library
  * 
- * see: - https://console.cloud.google.com/apis/ for account
+ * see: - https://github.com/googleapis/google-api-php-client/blob/main/docs/README.md
  */
 class GoogleAuthWrapper {
 
