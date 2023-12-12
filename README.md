@@ -13,7 +13,7 @@ require_once '/path/to/your-project/vendor/autoload.php';
 Register with google at:
 [https://github.com/googleapis/google-api-php-client/blob/main/docs/README.md](https://github.com/googleapis/google-api-php-client/blob/main/docs/README.md)
 
-note your:
+Note your:
 - Client ID
 - Client Secret
 
