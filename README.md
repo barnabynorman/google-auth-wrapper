@@ -3,7 +3,7 @@ Uses google-api-php-client and simplifies configuration / use
 ## Getting started with composer
 ```
 "require": {
-  "barnabynorman/google-auth-wrapper"
+  "barnabynorman/google-auth-wrapper": "^1.0"
 }
 ```
 Make sure to include the autoloader:
