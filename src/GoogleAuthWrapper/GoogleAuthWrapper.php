@@ -20,7 +20,7 @@ class GoogleAuthWrapper {
      */
     public function __construct($googleClientId, $googleClientSecret, $redirectUrl)
     {
-        $client = new Google_Client();
+        $client = new \Google_Client();
         $client->setClientId($googleClientId);
         $client->setClientSecret($googleClientSecret);
         $client->setRedirectUri($redirectUrl);
@@ -81,7 +81,7 @@ class GoogleAuthWrapper {
      */
     function getEmail()
     {
-        $oauth2 = new Google_Service_Oauth2($this->client);
+        $oauth2 = new \Google_Service_Oauth2($this->client);
         $userInfo = $oauth2->userinfo->get();
         
         return $userInfo->getEmail();
